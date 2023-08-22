@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung|ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgb(223, 64, 64);
+    padding: 13px 14px;
+    font-family: 'ZCOOL Qing HuangYou';
+    font-weight: bold;
+}
+
+#navbar li{
+    list-style: none;
+    
+}
+ 
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+#navbar li a:hover{
+    color:black
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg2.jpg");
+    height:300px;
+    /* background-color: #ff0000; */
+    font-family:'ZCOOL Qing HuangYou';
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+#introSection div.small{
+    font-size: 27px;
+    padding: 200px;
+}
+#sponsorsSection{
+    height:300px;
+    background-color: #d443435b;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Yeon Sung';
+}
+
+#footer{
+    height:100px;
+    background-color:black;
+}
